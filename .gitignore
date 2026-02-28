@@ -1,0 +1,14 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environments
+venv/
+.env
+
+# Data files (Don't upload large videos to GitHub)
+data/*.webm
+data/*.mp4
+
+# OS files
+.DS_Store
