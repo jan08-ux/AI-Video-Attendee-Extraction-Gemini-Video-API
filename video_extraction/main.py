@@ -16,7 +16,7 @@ class AttendeeList(BaseModel):
 # Note: Use 'gemini-2.5-flash' for the best balance of speed and quota in 2026.
 MODEL_ID = "gemini-2.5-flash" 
 VIDEO_FILE = "attendee_checkin_23f3003756.webm"
-API_KEY = "AIzaSyB97ZwHTA51u0w0x-sksitu04Iy84kjYDw"
+API_KEY = "API_KEY"
 
 client = genai.Client(api_key=API_KEY)
 
@@ -74,4 +74,5 @@ def extract_attendees():
                 print("--- Cleaned up temporary files ---")
 
 if __name__ == "__main__":
+
     extract_attendees()
