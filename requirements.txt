@@ -1,0 +1,9 @@
+# Google GenAI SDK (2026 Production Version)
+google-genai>=1.2.0
+
+# Data Validation and Schema
+pydantic>=2.10.0
+
+# HTTP and Utilities
+requests>=2.32.0
+tenacity>=9.0.0
